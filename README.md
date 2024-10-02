@@ -1,20 +1,18 @@
 <a id="readme-top"></a>
 
-# Amazon Books Genre Classifier
 
+# Amazon Books Genre Classifier
 <div align="center">
   
   [![Static Badge](https://img.shields.io/badge/v3.12.3-blue?label=Python)](https://www.python.org/)
   [![Static Badge](https://img.shields.io/badge/1.5.2-blue?label=Scikit-learn)](https://scikit-learn.org/stable/)
-  [![Static Badge](https://img.shields.io/badge/2.2.3-purple?label=Pandas)](https://scikit-learn.org/stable/)
-  [![Static Badge](https://img.shields.io/badge/3.9.2-%23C6BEEE?label=Matplotlib)](https://scikit-learn.org/stable/)
-  [![Static Badge](https://img.shields.io/badge/1.5.2-blue?label=Scikit-learn)](https://scikit-learn.org/stable/)
-  [![Static Badge](https://img.shields.io/badge/1.5.2-blue?label=Scikit-learn)](https://scikit-learn.org/stable/)
-  
-  
+  [![Static Badge](https://img.shields.io/badge/2.2.3-purple?label=Pandas)](https://pandas.pydata.org/)
+  [![Static Badge](https://img.shields.io/badge/3.9.2-%23C6BEEE?label=Matplotlib)](https://matplotlib.org/)
+  [![Static Badge](https://img.shields.io/badge/3.9.1-darkblue?label=Nltk)](https://www.nltk.org/)
+  [![Static Badge](https://img.shields.io/badge/4.44.1-%23ff7c00?label=Gradio)](https://www.gradio.app/)
 </div>
 
-
+## About The Project
 This project aims to classify books into their main genres based on their titles or descriptions. It uses Machine Learning techniques, particularly a Support Vector Machine (SVM) model, to analyze book titles and predict their respective genres. The model was trained on a Amazon books dataset containing book `Titles`, `Authors`, `Main Genre`, `Sub Genre` and more attributes.
 
 ## Features
@@ -29,3 +27,5 @@ This project aims to classify books into their main genres based on their titles
 - Model: The core classifier is a trained **SVM model** that processes the titles or descriptions and predicts the most likely genre.
 - Vectorization: The titles are converted into numerical vectors using TF-IDF (Term Frequency-Inverse Document Frequency) to represent their text-based features in a way the **SVM model** can process.
 - Evaluation: The performance of the model was evaluated using metrics like F1-score and recall.
+
+## Getting started
