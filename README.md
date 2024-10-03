@@ -27,5 +27,26 @@ This project aims to classify books into their main genres based on their titles
 - Model: The core classifier is a trained **SVM model** that processes the titles or descriptions and predicts the most likely genre.
 - Vectorization: The titles are converted into numerical vectors using TF-IDF (Term Frequency-Inverse Document Frequency) to represent their text-based features in a way the **SVM model** can process.
 - Evaluation: The performance of the model was evaluated using metrics like F1-score and recall.
+- Gradio Interface: An interactive interface was built using Gradio to allow users to input a book title and receive predictions about the book's most likely genre based on the trained model.
 
 ## Getting started
+
+### To get running locally:
+- Clone the repository
+  ```sh
+  git clone https://github.com/ALEXUSCR-27/Amazon-Books-Genre-Classifier.git
+  ```
+- Install all dependencies
+  ```sh
+  pip install -r requirements.txt
+  ```
+- Execute app.py file
+  ```sh
+  python app.py
+  ```
+- Access the interface with the local URL created by Gradio
+  ```sh
+  http://localhost:port
+  ```
+
+  <p align="center"><a href="#readme-top">Back to top ☝🏼</a></p>
