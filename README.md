@@ -20,9 +20,22 @@ This project aims to classify books into their main genres based on their titles
   For this project we used **Books_df** dataset, which contains the following columns: `Titles`, `Authors`, `Main Genre`, `Subgenre`, `Type`, `Price`, `Rating`, `No. of people voted`, `URLs`. Subsequently, a transformation process was carried out to clean and prepare the data for analysis and model trainning.
 - Data Analysis: Several visualizations were performed to gain insights into the dataset:
   - A plot showing the relationship between book ratings and the number of votes each book received per genre.
+    <div align="center">
+      <img src="images/books_rating.png" alt="books_rating" width="auto" height="auto"/>
+    </div>
   - Analysis of average book prices across different genres, revealing pricing trends per genre.
+    <div align="center">
+      <img src="images/prices_avg_genre.png" alt="price_avg_genre" width="auto" height="auto"/>
+    </div>
   - Visualization of the top 10 authors with the most expensive books registerd by Amazon, highlighting high-value authors.
+  - <div align="center">
+      <img src="images/top10_expensive_authors.png" alt="top10_expensive_authors.png" width="auto" height="auto"/>
+    </div>
   - A scatter plot showing book price distribution by genre, providing an overview of price variability within each genre.
+    <div align="center">
+      <img src="images/price_distribution_genres.png" alt="price_distribution_genres" width="auto" height="auto"/>
+    </div>
+    
 - Preprocessing: Text preprocessing includes lowering case, removing stop words, and using n-grams to capture meaningful patterns in the titles.
 - Model: The core classifier is a trained **SVM model** that processes the titles or descriptions and predicts the most likely genre.
 - Vectorization: The titles are converted into numerical vectors using TF-IDF (Term Frequency-Inverse Document Frequency) to represent their text-based features in a way the **SVM model** can process.
